@@ -9,10 +9,12 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,700');
 
 .Home_pnlCustomizePage {
-  margin-top: -50px!important;}
+  margin-top: -45px!important;}
 
 body {
   font-family: 'Titillium Web'!important;
+  background-color: white;
+  background: url('http://www.nipsoft.se/images/home-slider-nbs-telekom_eng_1709.jpg')!important;
 }
 
 .Home_customContent {
@@ -28,17 +30,31 @@ h2 {
 }
 
 .BaseMaster_mainMenuContainer {
-  margin: 30px;
+  margin: 40px;
   padding: 20px!important;
   background-color: rgb(235, 235, 235)!important;
+  color: black!important;
+}
+
+.BaseMaster_mainMenuContainer a {
+  color: black!important;
+}
+
+.searchContainer {
+  background: none!important;
+}
+
+.searchBox {
+  font-family: 'Titillium Web'!important;
+  font-weight: 100!important;
 }
 
 .darkTextBlock {
   background-color: #373737!important;
 }
 
-a {
-color: black!important;
+.darkTextBlock a {
+  color: white!important;
 }
 
 .dxcaLoadingPanel_DefaultTheme .dxlp-loadingImage,
