@@ -6,6 +6,41 @@
 
 /* General styles */
 
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,700');
+
+.Home_pnlCustomizePage {
+  margin-top: -50px!important;}
+
+body {
+  font-family: 'Titillium Web'!important;
+}
+
+.Home_customContent {
+  font-family: 'Titillium Web'!important;
+}
+
+h1 {
+  font-family: 'Titillium Web'!important;
+}
+
+h2 {
+  font-family: 'Titillium Web'!important;
+}
+
+.BaseMaster_mainMenuContainer {
+  margin: 30px;
+  padding: 20px!important;
+  background-color: rgb(235, 235, 235)!important;
+}
+
+.darkTextBlock {
+  background-color: #373737!important;
+}
+
+a {
+color: black!important;
+}
+
 .dxcaLoadingPanel_DefaultTheme .dxlp-loadingImage,
 .dxlpLoadingPanel_DefaultTheme .dxlp-loadingImage,
 .dxlpLoadingPanelWithContent_DefaultTheme .dxlp-loadingImage
@@ -18,13 +53,12 @@
 .BaseMaster_mainMenuContainer
 {
   /* Uncomment the following lines to get custom header background image */
-  /*background-image: url('/resources/Storage/Templates/Projects/Minimalist/escheresque.png') !important;
+  /*background-image: url('http://www.nipsoft.se/images/home-slider-nbs-telekom_eng_1709.jpg') !important;
   background-repeat: repeat !important;*/
-
-  /* Uncomment the following lines to get light gray header background */
- /* background-color: #ffffff !important;
-  background-image: none !important;*/
+  background-image: none !important;
+  color: black!important;
 }
+
 
 .CHMenu_menuItem a,
 .BaseMaster_profileLink
